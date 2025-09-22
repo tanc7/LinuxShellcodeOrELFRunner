@@ -43,3 +43,26 @@ Include it in your loader with #include
 Compile loader → produces memfd_loader
 Run loader → executes ELF in memory
 xxd -p + grep -abo '7f454c46' → verify both main and embedded ELF headers
+
+# ⚠️ Legal Disclaimer
+
+**LinuxShellcodeOrELFRunner** is provided **for educational, research, and defensive cybersecurity purposes only**. By accessing or using this repository, you acknowledge and agree to the following:
+
+1. **Intent of Use**
+This project is designed to demonstrate techniques related to executing shellcode or ELF binaries on Linux environments. It is intended for **security research, penetration testing in controlled environments, and learning about Linux internals and exploit development**.
+
+2. **No Malicious Use**
+You may **not** use any code, scripts, or techniques in this repository to target systems, networks, or users without explicit authorization. Unauthorized use may violate local, national, or international laws.
+
+3. **Assumption of Risk**
+All operations performed using this repository are the **sole responsibility of the user**. The author **assumes no liability** for any damage, data loss, or legal consequences arising from its use.
+
+4. **Educational Context**
+Techniques shown may be inspired by historical exploits or research tools. They are included purely for learning purposes and should **never be deployed against systems you do not own or have explicit permission to test**.
+
+5. **Compliance**
+By using this repository, you confirm that you will comply with all applicable laws and regulations and use this project ethically and responsibly.
+
+---
+
+> ⚠️ **Reminder:** Misuse of offensive security tools can carry severe legal consequences. Use responsibly.
